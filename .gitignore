@@ -1,0 +1,18 @@
+# Reference frames cut from third-party videos: kept locally, never published
+assets/reference/*.jpg
+assets/reference/*.jpeg
+assets/reference/*.png
+assets/reference/*.webp
+
+# Private Google Flow profiles (real ones live in ~/.gflow/profiles.json)
+profiles.json
+!google-flow/profiles.example.json
+
+# Dependencies and runtime files (run `npm install` in scripts/)
+node_modules/
+batch_log.txt
+flags.json
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

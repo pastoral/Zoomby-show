@@ -1,0 +1,6 @@
+{
+  "name": "zoomby-show-scripts",
+  "private": true,
+  "description": "docx output for the zoomby-show skill (prompt sheet)",
+  "dependencies": { "docx": "9.15.3" }
+}

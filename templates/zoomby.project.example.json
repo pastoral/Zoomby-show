@@ -1,0 +1,56 @@
+{
+  "stage": "build",
+  "slug": "ronaldinho-weird-facts",
+  "title": "8 weird things you didn't know about Ronaldinho",
+  "character_route": "premium",
+  "paths": {"root": ".."},
+  "topic": {"subject": "Football", "name": "Ronaldinho", "short": "ronaldinho-weird-facts", "angle": "the happiest man in football, even in jail"},
+  "width": 1080, "height": 1920, "fps": 25,
+  "params": {"badge": {"color": "#FFD60A"}},
+  "brief": {"scenes": 8, "hook": "title-line", "flow": "connectors", "ending": "legend", "badge": "follows the kit"},
+  "premium": {
+    "character_block": {
+      "brazil": "a hybrid character: the BODY is a semi-realistic 3D render of a grown adult male footballer, broad shoulders, athletic build, brown skin, realistic hands, realistic fabric folds, wearing a bright canary-yellow football shirt with a green round collar and green sleeve cuffs, royal-blue shorts, white socks, no logos, no badges, no numbers; the HEAD is a flat 2D cartoon head: oversized, flat brown skin colour, thin dark brown outline, wide square manly jaw, thin dark moustache line, thick dark eyebrows, big white oval eyes with small black dot pupils, tiny nose line, [EXPRESSION], long curly black hair tied back drawn as flat dark curly shapes, a thin white headband"
+    },
+    "master": {"brazil": "03_character/master_brazil.jpg"},
+    "flow_project": "<flow project id>",
+    "shot_list": "01_storyboard/shotlist.md"
+  },
+  "vo": {"src": "05_vo/vo.mp3"},
+  "music": {"src": "audio/music.mp3", "db": -26.2},
+  "sfx": [
+    {"src": "audio/whoosh.mp3", "t": 0.0, "dur": 0.8, "db": -11},
+    {"src": "audio/ping.mp3", "t": 54.21, "dur": 0.6, "db": -10}
+  ],
+  "words": [{"w": "8", "s": 0.0, "e": 0.3}, {"w": "weird", "s": 0.3, "e": 0.55}],
+  "duration": 79.28,
+  "scenes": [
+    {
+      "id": "hook", "badge": null,
+      "round1": {"line": "Eight weird things you didn't know about Ronaldinho."},
+      "shots": [
+        {"start": 0.0, "end": 1.62, "bg": "04_backgrounds/plates/H1.jpg", "camera": "push", "drift": 14, "enter": "zoom",
+         "eyes": {"pair": {"eyes": [{"cx": 46.53, "cy": 27.5, "rx": 2.08, "ry": 0.9}, {"cx": 53.4, "cy": 27.5, "rx": 2.05, "ry": 0.9}], "skin": "#9C6744", "ink": "#1E1410"},
+                  "looks": [{"at": 0.4, "dir": "c"}], "blink": true},
+         "fx": [{"type": "ball_to_lens", "at": 0.85, "dur": 0.7}]},
+        {"start": 1.62, "end": 3.42, "bg": "04_backgrounds/plates/H2.jpg", "camera": "push", "drift": 10, "enter": "cut",
+         "eyes": {"pair": "<eye_locate pair>", "looks": [{"at": 0.25, "dir": "l"}, {"at": 0.7, "dir": "r"}, {"at": 1.2, "dir": "c"}], "blink": true}}
+      ]
+    },
+    {
+      "id": "s6", "badge": 3, "badge_color": "#FFD60A",
+      "round1": {"connector": "", "line": "At thirteen his team reportedly won 23–0, and he scored all 23. Not most of them. All of them."},
+      "round2": {"package": "Pitch → ball-filled goal → kid keeper → smug shrug"},
+      "shots": [
+        {"start": 50.08, "end": 54.06, "bg": "04_backgrounds/plates/6a.jpg", "camera": "push", "drift": 12, "enter": "cut", "punch": {"at": 2.19, "pct": 12}},
+        {"start": 54.06, "end": 55.96, "bg": "04_backgrounds/plates/6b.jpg", "camera": "push", "drift": 10, "enter": "cut",
+         "fx": [{"type": "number", "at": 0.15, "to": 23, "label": "GOALS", "sub": "IN ONE GAME, AGE 13", "x": 50, "y": 27, "size": 26, "dur": 0.9}]},
+        {"start": 55.96, "end": 56.38, "bg": "04_backgrounds/plates/6c.jpg", "camera": "push", "drift": 8, "enter": "cut", "punch": {"at": 0.05, "pct": 10}},
+        {"start": 56.38, "end": 58.74, "bg": "04_backgrounds/plates/6d.jpg", "camera": "push", "drift": 10, "enter": "cut",
+         "eyes": {"pair": "<eye_locate pair>", "looks": [{"at": 0.2, "dir": "l"}, {"at": 0.6, "dir": "r"}, {"at": 1.3, "dir": "c"}], "blink": true},
+         "punch": {"at": 1.3, "pct": 14},
+         "bubble": {"text": "EASY", "x": 70, "y": 18, "at": 1.3}}
+      ]
+    }
+  ]
+}

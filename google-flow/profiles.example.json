@@ -1,0 +1,9 @@
+{
+  "_about": "Copy to ~/.gflow/profiles.json (or point $GFLOW_PROFILES at it) and fill in your own gflow profiles in failover order. Keep the real file private.",
+  "profiles": [
+    {"profile": "my-main-account", "project": "00000000-0000-0000-0000-000000000000", "refs": true, "enabled": true,
+     "note": "project made in Flow's website, so reference images work"},
+    {"profile": "my-second-account", "project": "11111111-1111-1111-1111-111111111111", "refs": false, "enabled": true,
+     "note": "text-only jobs"}
+  ]
+}
