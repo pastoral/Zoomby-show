@@ -9,6 +9,10 @@ A Claude Code skill that makes a premium vertical cartoon Short on any topic ("1
 
 > Independent fan-made tooling. Not affiliated with, endorsed by or connected to the Zoomby Show channel. Use it to make your own original videos: don't copy anyone's characters, branding or footage.
 
+## Workflow
+
+The step-by-step workflow, from the one-time setup to the publish kit, is in [docs/WORKFLOW.pdf](docs/WORKFLOW.pdf).
+
 ## Install
 
 ```powershell
@@ -40,6 +44,7 @@ Or clone it anywhere and link it into `~/.claude/skills/zoomby-show`. Then, in C
 | `references/` | Story, storyboard, shot options, style, Flow prompts, build and publish guides |
 | `google-flow/` | Flow rulebook, batch runner, example manifest and profiles file |
 | `scripts/` | Project builder, cutouts, eye locator, motion/FX helpers, prompt-sheet and publish-kit generators |
+| `docs/WORKFLOW.pdf` | Step-by-step workflow with every approval checkpoint |
 | `archive/` | Retired routes (code-drawn puppet, prompt sheet), kept for reference |
 
 ## License
